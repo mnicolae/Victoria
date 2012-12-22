@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions
+END
+AddWhileBaggingException.html
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions/AddWhileBaggingException.html
+END
+InvalidBICException.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions/InvalidBICException.html
+END
+package-frame.html
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions/package-frame.html
+END
+package-use.html
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions/package-use.html
+END
+InvalidProductException.html
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions/InvalidProductException.html
+END
+package-summary.html
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions/package-summary.html
+END
+AddWhilePayingException.html
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions/AddWhilePayingException.html
+END
+IncorrectStateException.html
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions/IncorrectStateException.html
+END
+package-tree.html
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions/package-tree.html
+END
+InvalidUPCException.html
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions/InvalidUPCException.html
+END

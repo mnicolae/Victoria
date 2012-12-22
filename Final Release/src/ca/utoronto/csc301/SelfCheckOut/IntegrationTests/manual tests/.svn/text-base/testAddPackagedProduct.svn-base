@@ -1,0 +1,49 @@
+This contains many integration tests for adding items to the packaged product
+tab in the Administrator GUI.
+
+Start by running the Test Suite to make sure the back-end has no known errors.
+If it does they should be corrected before performing these tasks to save yourself time.
+
+
+Tests:
+712345678904
+Add with no input:
+-launch the administrator view
+-select the packaged product tab
+-press the add button (make sure no input was accidently entered to the add box)
+Expected Result: nothing should happen
+
+Add with not long enough input:
+-launch the administrator view
+-select the packaged product tab
+-type in or copy 71234567890 into the add box
+-press the add button
+Expected Result: nothing should happen, but there should be an error displayed mentioning
+				 the expected UPC input is 12 digits long.
+				 
+Add with bad check sum:
+-launch the administrator view
+-select the packaged product tab
+-type in or copy 712345678901 into the add box
+-press the add button
+Expected Result: nothing should happen, but there should be an error displayed mentioning
+				 an error in the check sum
+				 
+Add with valid UPC:
+Assumption: Product 712345678904 does not already exist if it does delete it
+-launch the administrator view
+-select the packaged product tab
+-type in or copy 712345678904 into the add box
+-press the add button 
+Expected Result: The last row should now contain a product with UPC 712345678904
+
+
+Add with valid UPC that already exists:
+Assumption: Product 712345678904 already exists (if it doesn't add it to the database)
+-launch the administrator view
+-select the packaged product tab
+-type in or copy 712345678904 into the add box
+-press the add button
+Expected Result: Nothing should happen but there should be a error displaying that the UPC already exists
+				 
+				 

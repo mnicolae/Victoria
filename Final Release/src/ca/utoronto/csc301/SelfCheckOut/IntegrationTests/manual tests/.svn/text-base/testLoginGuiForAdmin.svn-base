@@ -1,0 +1,59 @@
+This is manual test for Admin loginGUI.
+
+Design assumption :
+	-Administrator can create new account with admin or employee privilege.
+	In order to do so he/she has to login first with their credential.
+	-Administrator of the system is given default username and password so
+	as to allow him to login.(very first time)
+	-passwords are encrypted.
+	
+	
+	
+	
+Manual test :
+	
+	TestCreateNewUser
+	-Click Create New :
+		New Window pops up which requires admin username and password.
+		-Type in correct username and password :
+			New window pops up which is GUI for creating new user.
+			 	- type in unique name , username and password:
+			 	
+			 		Expected : main starter gui (indicates new user is created )
+			 		Verification : select employee/administrator based on
+			 		type of new user created. Type in new username and password.
+			 		Expected : access to admin view.
+			 	- type in username which already exsist :
+			 		Expected : Error message saying, user already exists	 	
+		 
+	TestCorrectLoginCredentials
+		-Type correct username and password :
+		-press login
+		Expected: You should now have access to the admin view with full privileges (Ie. you can edit valid cells)
+		
+	TestUserFieldMissing
+		-Type only a password
+		-press login
+		Expected : An error message should be displayed saying username or password is required.
+
+	TestPwdFieldMissing
+		-Type only a username with no password
+		-press login
+		Expected: An error message should be displayed saying username or password is required.
+	
+	TestIncorrectUsernameAndPwd
+		-Type a username
+		-Type a password such that it is incorrect for the given username
+		-press login
+		Expected: An error message should be displayed saying username or password is invalid.
+		
+	TestIncorrectUsernameAndPwdWithCorrection
+		-Type a username
+		-Type a password such that it is incorrect for the given username
+		-press login
+		Expected: An error message should be displayed saying username or password is invalid.
+		-remove the password and retype it so that it matches the username's passwird
+		-press login
+		Expected: You should now have access to the admin view with full privileges (Ie. you can edit valid cells)
+		
+	

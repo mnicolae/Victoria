@@ -1,0 +1,14 @@
+These are manual tests for adding tax categories to the Tax Category table.
+
+Tests:
+
+test Add new tax category
+   Attempt: Add a new tax category "electronics" that does not currently exist in the table. 
+   Expected: Successfully add it.
+   Test: pass
+
+test Add existing tax category   
+   Attempt: Add a tax category "fruit" that already exists in the table.
+   Expected: Nothing will be added, and error message of "column category is not unique."
+   Test: pass
+   

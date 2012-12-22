@@ -1,0 +1,30 @@
+These are manual tests for updating the Tax Categories table.
+
+ 
+Tests:
+Before Tests: Add "electronics" category.
+
+test Change the tax rate of newly added category
+   Attempt: Edit the tax rate of the category "electronics" that was just added to be 25. 
+   Expected: Tax rate will be 25.0 for electronics.
+   Test: pass
+
+test Change the tax rate to be 0   
+   Attempt: Edit the tax rate of "electronics" to be 0.
+   Expected: Tax rate will be 0.0 for electronics.
+   Test: pass
+
+test Change tax rate to be negative   
+   Attempt: Edit the tax rate of "veggie" to be -1.
+   Expected: Nothing will happen to tax rate, and error message of "Invalid percent, must be a number between 0 and 100."
+   Test: pass
+
+test Change tax rate of newly added to a string 
+   Attempt: Edit the tax rate of "electronics" to be "abc"
+   Expected: Nothing will change, error message of "Invalid percent, must be a number between 0 and 100".
+   Test: pass
+
+test Change tax rate of existing category to a string
+   Attempt: Edit the tax rate of "fruit" to be "foo"
+   Expected: Nothing wil change, error message of "Invalid percent, must be a number between 0 and 100",
+   Test: pass

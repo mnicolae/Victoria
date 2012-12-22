@@ -1,0 +1,91 @@
+These are the manual test cases for the search function in 
+SelfCheckOutAdministratorView GUI (or "Administrator View")
+
+Design assumption
+-----------------
+-The user wants to search for an entry in a particular table, rather than every table
+	eg. user wants to search for a Bulk Product instead of a Packaged Product if the 
+	table view is focused on the Bulk Products tab
+-The user wants to manually clear the search box (the search string persists in the search box)
+-The user prefers to have instant search result (i.e. search result is displayed in real time)
+
+
+Manual tests
+------------
+In general
+	Attempted: Typed something into the search box for one table view, changed the GUI tab view 
+				to a different table, and then changed back to the tab view for the previous table
+	Expected: the search string that the user typed earlier is still in the search box
+	Test: pass
+
+	Attempted: Search box is out of focus (i.e. user is not interacting with the search box)
+	Expected: A user-friendly hint message is displayed in the search box
+	Test: pass
+	
+	Attempted: Search box is in focus (i.e. user is about to type something or 
+				is already typing something into the search box)
+	Expected: The user-friendly hint message disappears
+	Test: pass
+	
+	Attempted: Typing something into the search box, clearing the search box, and then putting 
+				the search box out of focus
+	Expected: The user-friendly hint message is displayed again
+	Test: pass
+	
+	
+For Tax Categories table
+	Assumption: the taxable category "fruit" exists in the table and no other taxable category 
+				in the table contains the substring "ruit"
+	Attempted: typed "ruit" into search box
+	Expected: only see the entry for "fruit" displayed
+	Test: pass
+	
+	Assumption: no taxable category in the table contains the substring "tax"
+	Attempted: typed "tax" into search box
+	Expected: no entries are displayed in the Tax Categories table
+	Test: pass
+	
+	Assumption: multiple (but not all) taxable categories that contain the substring "a" are in the table
+	Attempted: typed "a" into search box
+	Expected: entries that contained "a" in them are displayed and the rest of the entries are hidden
+	Test: pass
+	
+	Assumption: no taxable category has a tax rate of 99%
+	Attempted: typed "99" into search box
+	Expected: no entries are displayed in the Tax Categories table
+	Test: pass
+	
+	Assumption: multiple (but not all) taxable categories that have a tax rate of 20% exists in the table
+	Attempted: typed "20" into search box
+	Expected: entries that are taxed for 20% within the percent (i.e. 20.0% to 20.9999...%) are displayed
+				and the rest of the entries are hidden
+	Test: pass
+	
+	
+For Bulk Products table
+	Assumption: no entry with the BIC code "56789" exists in the table
+	Attempted: searched for "56789"
+	Expected: no entries are displayed
+	Test: pass
+	
+	Assumption: the BIC code of multiple (but not all) entries contains the substring "1" and some
+				entries have "1" in their unit/wholesale price (ex. wholesale price of 0.61)
+	Attempted: searched for "1"
+	Expected: entries whose BIC code contained the substring "1" and entries who have "1" in their
+				unit/wholesale price are displayed; rest of the entries are hidden
+	Test: pass
+	
+For Packaged Products table
+	Assumption: the unit price of ONE product in the table is $6.0 and the wholesale price of ONE
+				DIFFERENT product is $6.78; everything else does not have a price range between $6.0 to $6.9999...
+	Attempted: searched for "6."
+	Expected: only see the entry with unit price of $6.0 and the entry with the wholesale price of $6.78
+	Test: pass
+	
+For Sales table
+	Assumption: multiple (but not all) products that are on sale have a sale start date of "2012-05-26"
+	Attempted: searched for "2012-05-26"
+	Expected: only see entries whose sale start date is 2012-05-26; rest are hidden
+	Test: pass
+
+

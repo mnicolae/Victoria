@@ -1,0 +1,60 @@
+This contains manual integration tests for removing products from the Packaged Product
+tab in SelfCheckOutAdministrator GUI.
+
+Start by running the Test Suite to make sure the back-end has no known errors.
+If it does they should be corrected before performing these tasks to save yourself time.
+
+Make sure the database has test products in it.
+
+
+Tests:
+
+Test Remove No Rows:
+-Launch Administrator GUI
+-Select tab Packaged Products
+-Press the remove button (make sure no row was accidently selected)
+Expected Result: Nothing should happen
+
+Test Remove No Rows After selecting a single row and then de-selecting:
+-Launch Administrator GUI
+-Select tab Packaged Products
+-Select the first row
+-deselect the first row (ie. hold control and press the row)
+-press Remove button
+Expected Result: Nothing should happen
+
+Test Removing a single row:
+-Launch Administrator GUI
+-Select tab Packaged Products
+-Select the first row
+-press Remove button
+Expected Result: The first row should be removed
+
+Test Remove several rows:
+-Launch Administrator GUI
+-Select tab Packaged Products
+-Select the first 3 rows
+-press Remove button
+Expected Result: Rows 1 to 3 should be removed
+
+Test Remove Rows After selecting several rows and then deselecting some of them:
+-Launch Administrator GUI
+-Select tab Packaged Products
+-Select the first 5 rows
+-deselect the first 3 rows (ie. hold control and press each row)
+-press Remove button
+Expected Result: Rows 4 and 5 should be removed
+
+Test remove many rows with many selects and deselects:
+-Launch Administrator GUI
+-Select tab Packaged Products
+-Select the first 5 rows
+-deselect them them all
+-select the first 5 rows
+-deselect them all
+-select the first 2 rows
+-deselect the second row
+-press Remove button
+Expected Result: The first row should be removed
+
+

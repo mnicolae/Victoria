@@ -1,0 +1,101 @@
+This is a manual test for updating a tuple in the PackagedProduct relation.
+It also contains the various assumptions that are made about the system's functionality.
+
+Assumptions about the system's functionality
+- The Sale ID attribute cannot be edited. 
+- The Product Code attribute cannot be edited
+- The description cannot be edited. It is their just for convenience.
+- Start date and end date, only consider dates between 0000-01-01 and 9999-12-31
+- Percent is only valid between 0 and 100
+- Flat rate discount is only valid between 0 and the base price of the the product
+- the accumulated discount in a time period may not exceed the products base price
+
+Manual tests:
+
+	TestSaleIDNotEditable:
+		-double click on any rows sale Sale ID several times
+		Expected result: Sale ID will never become editable
+
+	TestProductCodeNotEditable:
+		-double click on any rows product code several times
+		Expected result: product code will never become editable
+		
+	TestSaleIDNotEditable:
+		-double click on any rows description several times
+		Expected result: description will never become editable	
+		
+	TestInvalidStartSaleYear:
+		-double click on any rows start of sale
+		-erase the date and type exactly -99999-01-01
+		-press enter
+		Expected result: No change should happen because -99999 is not a valid date
+		
+	TestInvalidEndSaleYear:
+		repeat instructions from TestInvalidStartSaleYear but for End Sale instead
+
+	TestInvalidStartSaleMonth:
+		-double click on any rows start of sale
+		-erase the date and type exactly 1111-13-01
+		-press enter
+		Expected result: No change should happen because month is > 12
+		
+	TestInvalidEndSaleMonth:
+		repeat instructions from TestInvalidStartSaleMonth but for End Sale instead
+		
+	TestInvalidStartSaleDay:
+		-double click on any rows start of sale
+		-erase the date and type exactly 1111-11-66
+		-press enter
+		Expected result: No change should happen because day is to large for a month
+		
+	TestInvalidEndSaleMonth:
+		repeat instructions from TestInvalidStartSaleDay but for End Sale instead				
+		
+	TestValidStartSale:
+		-double click on any rows start of sale
+		-erase the date and type exactly 1111-11-11
+		-press enter
+		Expected result: The start of sale should now be 1111-11-11
+		
+	TestValidEndSale:
+		repeat instructions from TestValidStartSale for End Sale.
+		
+	TestInvalidPercentDiscountTooLarge:
+		-double click any row's percent discount
+		-erase and change it to 101
+		-press enter
+		Expected result: No change should occur
+	
+	TestInvalidPercentDiscountTooSmall:
+		-double click any row's percent discount
+		-erase and change it to -234
+		-press enter
+		 Expected result: No change should occur
+	
+	TestValidPercentDiscount:
+		-double click any row's percent discount
+		-erase and change it to 50
+		-press enter
+		 Expected result: Percent discount should now be 50
+	
+	TestValidFlatRateDiscount:
+		-double click any row's flat rate discount
+		-erase and change it to 0
+		-press enter
+		 Expected result: Flat rate discount should now be 0
+		 
+	TestInvalidFlatRateDiscountNegative:
+		-double click any row's flat rate discount
+		-erase and change it to -100
+		-press enter
+		 Expected result:the Flat rate discount	should not change
+	
+	TestInvalidFlatRateDiscountTooLarge
+		-look up the price for a product in either BulkProduct or PackagedProduct
+		-add this product to the sale table
+		-attempt to change its flat rate discount to the price looked up + 1
+		Expected result: No change should occur
+		
+	
+			
+		

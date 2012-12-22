@@ -1,0 +1,49 @@
+This is manual test for Admin loginGUI.
+
+Design assumption :
+	-Administrator can create new account with admin or employee privilege.
+	In order to do so he/she has to login first with their credential.
+	-Administrator of the system is given defualt username and password so
+	as to allow him to login.(very first time)
+	-passwords are encrypted.
+	
+	
+	
+	
+Manual test :
+	-Type correct username and password :
+		Expected : access to admin view.
+		Actual : gets access to admin view.
+	
+	-Click Create New :
+		New Window pops up which requires admin username and password.
+		-Type in correct username and password :
+			New window pops up which is GUI for creating new user.
+			 	- type in unique name , username and password:
+			 	
+			 		Expected : main starter gui (indicates new user is created )
+			 		Actual :  main starter gui.
+			 		Verification : select employee/administrator based on
+			 		type of new user created. Type in new username and password.
+			 		Expected : access to admin view.
+			 		Actual : access to admin view.
+			 	
+			 	- type in username which already exsist :
+			 		Excepted : No change (indicating username already in use)
+			 		Actual : No change
+			 	
+		 
+	-Try to login with employee username and password : 
+		Expected : you are not authorised.
+		result : you are not authorised.
+			
+	-Type only username or password :
+		Expected : username or password is incorrect.
+		Actual : uesrname or password is incorrect.
+		
+	-Type incorrect username or password :
+		Expected : username or password is incorrect.
+		Actual : uesrname or password is incorrect.
+		
+		
+	

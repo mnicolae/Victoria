@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Devices
+END
+BaggingAreaListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Devices/BaggingAreaListener.java
+END
+PaymentCollector.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Devices/PaymentCollector.java
+END
+PaymentCollectorTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Devices/PaymentCollectorTest.java
+END
+BaggingArea.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Devices/BaggingArea.java
+END
+BaggingAreaEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Devices/BaggingAreaEvent.java
+END

@@ -1,0 +1,21 @@
+This is manual test for Employee loginGUI.
+
+Design assumption :
+	-User(Employee) can only login with user name and password provided by 
+	administrator.
+	-User(Employee) cannot change his password.
+	
+Manual test :
+	-Type correct username and password :
+		Expected : access to admin view.
+		Actual : gets access to admin view.
+	
+	-Type only username or password :
+		Expected : username or password is incorrect.
+		Actual : uesrname or password is incorrect.
+		
+	-Type incorrect username or password :
+		Expected : username or password is incorrect.
+		Actual : uesrname or password is incorrect.
+		
+	

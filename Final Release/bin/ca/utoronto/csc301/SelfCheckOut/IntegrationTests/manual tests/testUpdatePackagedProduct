@@ -1,0 +1,33 @@
+This is a manual test for updating a tuple in the PackagedProduct relation.
+It also contains the various assumptions that are made about the system's functionality.
+
+Assumptions about the system's functionality
+- The UPC attribute cannot be updated. 
+- The Description attribute can be updated to anything, as in doing so it does not affect any constraints.
+- The Unit price attribute can only be updated to valid values. That is, positive double values.
+- The same assumption applies to the Weight and Whole Sale price attributes.
+- The Taxable category attribute can only be modified to a value that exists in the Tax Categories table.  
+
+Manual tests
+- The UPC attribute could not be updated for any tuple
+- Successfully updated the Description attribute
+	- alphabetic string
+	- alpha-numerical string
+	- string of length one
+	- empty string
+- Successfully updated the price (same tests for Weight and Whole Sale price)
+	- price of 0.00
+	- price of 0
+	- price of 1.99
+	- price of 1
+- Did not update the price successfully (same tests for Weight and Whole Sale price)
+	- price of -1 (negative price)
+	- alpha-numerical string
+	- alphabetic string
+	- empty string
+- Successfully updated the taxable category (to existing categories)
+	- fruit
+	- candy
+- Did not update the taxable category successfully (non-existing categories)
+	- car
+	- cosmetics

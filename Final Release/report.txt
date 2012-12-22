@@ -1,0 +1,72 @@
+Report on Profit of Impulse Buy Products as of Sun Dec 02 12:44:16 EST 2012
+
+============================================
+============================================
+
+Most Profitable Product Overall: Wired sold with a profit margin of $110.24 at Self-Checkout counter #3.
+
+Ranking for Highest Profit Overall: 
+2) Plastic fork sold with a profit margin of $8.55 at Self-Checkout counter #2.
+3) Plastic fork sold with a profit margin of $4.95 at Self-Checkout counter #3.
+4) Wired sold with a profit margin of $4.16 at Self-Checkout counter #1.
+5) Wired sold with a profit margin of $4.16 at Self-Checkout counter #2.
+6) Plastic fork sold with a profit margin of $2.1000000000000005 at Self-Checkout counter #1.
+7) Sees Chocolate sold with a profit margin of $2.0 at Self-Checkout counter #3.
+8) Jellybean sold with a profit margin of $1.59 at Self-Checkout counter #3.
+9) Sees Chocolate sold with a profit margin of $0.5 at Self-Checkout counter #1.
+10) Sees Chocolate sold with a profit margin of $0.5 at Self-Checkout counter #2.
+11) Jellybean sold with a profit margin of $0.15 at Self-Checkout counter #1.
+12) Jellybean sold with a profit margin of $0.09 at Self-Checkout counter #2.
+
+============================================
+
+Most Sold Overall: Plastic fork sold 57.0 units at Self-Checkout counter #2.
+
+Ranking for Most Sold Overall: 
+2) Wired sold 53.0 units at Self-Checkout counter #3.
+3) Jellybean sold 53.0 units at Self-Checkout counter #3.
+4) Plastic fork sold 33.0 units at Self-Checkout counter #3.
+5) Sees Chocolate sold 27.0 units at Self-Checkout counter #2.
+6) Plastic fork sold 13.999999999999998 units at Self-Checkout counter #1.
+7) Jellybean sold 5.0 units at Self-Checkout counter #1.
+8) Sees Chocolate sold 4.0 units at Self-Checkout counter #3.
+9) Jellybean sold 3.0 units at Self-Checkout counter #2.
+10) Wired sold 2.0 units at Self-Checkout counter #1.
+11) Wired sold 2.0 units at Self-Checkout counter #2.
+12) Sees Chocolate sold 1.0 units at Self-Checkout counter #1.
+
+============================================
+
+Fastest Money Making Product Overall: Wired has an average profit margin of $0.5457425742574257 per day since it started selling 202.0 days ago at Self-Checkout counter #3.
+
+Ranking for Fastest Money Making Products: 
+2) Plastic fork has an average profit margin of $0.171 per day since it started selling 50.0 days ago at Self-Checkout counter #2.
+3) Wired has an average profit margin of $0.09674418604651164 per day since it started selling 43.0 days ago at Self-Checkout counter #1.
+4) Wired has an average profit margin of $0.08 per day since it started selling 52.0 days ago at Self-Checkout counter #2.
+5) Plastic fork has an average profit margin of $0.07615384615384616 per day since it started selling 65.0 days ago at Self-Checkout counter #3.
+6) Plastic fork has an average profit margin of $0.048837209302325595 per day since it started selling 43.0 days ago at Self-Checkout counter #1.
+7) Sees Chocolate has an average profit margin of $0.02531645569620253 per day since it started selling 79.0 days ago at Self-Checkout counter #3.
+8) Jellybean has an average profit margin of $0.014454545454545456 per day since it started selling 110.0 days ago at Self-Checkout counter #3.
+9) Sees Chocolate has an average profit margin of $0.01020408163265306 per day since it started selling 49.0 days ago at Self-Checkout counter #1.
+10) Sees Chocolate has an average profit margin of $0.01020408163265306 per day since it started selling 49.0 days ago at Self-Checkout counter #2.
+11) Jellybean has an average profit margin of $0.002830188679245283 per day since it started selling 53.0 days ago at Self-Checkout counter #1.
+12) Jellybean has an average profit margin of $0.001764705882352941 per day since it started selling 51.0 days ago at Self-Checkout counter #2.
+
+============================================
+
+Fastest Selling Product Overal: Plastic fork has sold on average 1.14 units per day since it started selling 50.0 days ago at Self-Checkout counter #2.
+
+Ranking for Fastest Selling Products: 
+2) Sees Chocolate has sold on average 0.5510204081632653 units per day since it started selling 49.0 days ago at Self-Checkout counter #2.
+3) Plastic fork has sold on average 0.5076923076923077 units per day since it started selling 65.0 days ago at Self-Checkout counter #3.
+4) Jellybean has sold on average 0.4818181818181818 units per day since it started selling 110.0 days ago at Self-Checkout counter #3.
+5) Plastic fork has sold on average 0.3255813953488372 units per day since it started selling 43.0 days ago at Self-Checkout counter #1.
+6) Wired has sold on average 0.2623762376237624 units per day since it started selling 202.0 days ago at Self-Checkout counter #3.
+7) Jellybean has sold on average 0.09433962264150944 units per day since it started selling 53.0 days ago at Self-Checkout counter #1.
+8) Jellybean has sold on average 0.058823529411764705 units per day since it started selling 51.0 days ago at Self-Checkout counter #2.
+9) Sees Chocolate has sold on average 0.05063291139240506 units per day since it started selling 79.0 days ago at Self-Checkout counter #3.
+10) Wired has sold on average 0.046511627906976744 units per day since it started selling 43.0 days ago at Self-Checkout counter #1.
+11) Wired has sold on average 0.038461538461538464 units per day since it started selling 52.0 days ago at Self-Checkout counter #2.
+12) Sees Chocolate has sold on average 0.02040816326530612 units per day since it started selling 49.0 days ago at Self-Checkout counter #1.
+
+============================================

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions/class-use
+END
+InvalidUPCException.html
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions/class-use/InvalidUPCException.html
+END
+AddWhileBaggingException.html
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions/class-use/AddWhileBaggingException.html
+END
+InvalidBICException.html
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions/class-use/InvalidBICException.html
+END
+InvalidProductException.html
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions/class-use/InvalidProductException.html
+END
+AddWhilePayingException.html
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions/class-use/AddWhilePayingException.html
+END
+IncorrectStateException.html
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/doc/edu/uci/inf111/SelfCheckOut/Exceptions/class-use/IncorrectStateException.html
+END

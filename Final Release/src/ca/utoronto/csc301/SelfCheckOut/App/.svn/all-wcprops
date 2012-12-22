@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/csc301-2012-09/Victoria/!svn/ver/296/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App
+END
+GroceryItemTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/GroceryItemTest.java
+END
+GroceryItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/GroceryItem.java
+END
+ProductInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/ProductInfo.java
+END
+BICTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/BICTest.java
+END
+BIC.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/BIC.java
+END
+BulkProductTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/BulkProductTest.java
+END
+BulkProduct.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/BulkProduct.java
+END
+Utils.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/Utils.java
+END
+PackagedProduct.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/PackagedProduct.java
+END
+PackagedProductTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/PackagedProductTest.java
+END
+DatabaseTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/csc301-2012-09/Victoria/!svn/ver/296/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/DatabaseTest.java
+END
+Database.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/csc301-2012-09/Victoria/!svn/ver/296/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/Database.java
+END
+Code.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/Code.java
+END
+CheckOutCart.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/CheckOutCart.java
+END
+CheckOutCartTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/CheckOutCartTest.java
+END
+SelfCheckOut.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/csc301-2012-09/Victoria/!svn/ver/286/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/SelfCheckOut.java
+END
+SelfCheckOutTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/csc301-2012-09/Victoria/!svn/ver/286/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/SelfCheckOutTest.java
+END
+UPC.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/UPC.java
+END
+UPCTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/App/UPCTest.java
+END

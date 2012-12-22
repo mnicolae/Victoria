@@ -1,0 +1,17 @@
+This is a manual test for the main menu GUI (named StarterGUI in the project's file-system).
+It also contains the various assumptions that are made about the system's functionality.
+
+Assumptions about the system's functionality
+  - the main menu is the first and only window that is instantiated when the project is launched 
+    in the final release
+  - it is close-able from the top-right close button
+  - it contains three buttons: Customer, Employee, Administrator
+  - clicking on either of the three buttons will result in the main menu being closed
+  - clicking on the customer button links to the SelfCheckOut application
+  - clicking on the employee button links to an employee login application
+  - clicking on the administrator button links to an administrator login application (one that is different
+  from the one the employee has)
+
+Manual tests
+  - manual tests ensure that all of the above assumptions about the system's functionality are respected
+  - as such, the assumptions represent the manual test plan and writing the specific test cases would be redundant

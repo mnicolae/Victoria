@@ -1,0 +1,19 @@
+Manual test for viewing AdminView:
+
+Test open admin view:
+	Expected: admin view opens when clicking Administrator button from StarterGUI
+	Attempt: Admin view opens.
+	
+Test view bulk products:
+	Expected: Bulk products are displayed when Bulk product tab is clicked.
+	Attempt: Bulk products are displayed.
+
+Test view packaged products:
+	Expected: Packaged products are displayed when packaged products tab is clicked.
+	Attempt: Packaged products are displayed.
+	
+Test view Sales:
+	Expected: Sales are displayed when sales tab is clicked.
+	Attempt: Sales are displayed.
+	
+	

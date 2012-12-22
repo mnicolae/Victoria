@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Exceptions
+END
+InvalidBICException.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Exceptions/InvalidBICException.java
+END
+UnrecognizedPayTypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Exceptions/UnrecognizedPayTypeException.java
+END
+JDCBDriverException.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Exceptions/JDCBDriverException.java
+END
+SaleDiscountNegativeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Exceptions/SaleDiscountNegativeException.java
+END
+InvalidCardException.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Exceptions/InvalidCardException.java
+END
+DatabaseConnectionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Exceptions/DatabaseConnectionException.java
+END
+InvalidProductException.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Exceptions/InvalidProductException.java
+END
+IncorrectStateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Exceptions/IncorrectStateException.java
+END
+AddWhilePayingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 128
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Exceptions/AddWhilePayingException.java
+END
+SaleDiscountTooLargeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Exceptions/SaleDiscountTooLargeException.java
+END
+SaleDiscountException.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Exceptions/SaleDiscountException.java
+END
+InvalidWeightException.java
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Exceptions/InvalidWeightException.java
+END
+InvalidUPCException.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Exceptions/InvalidUPCException.java
+END
+NegativePayAmountException.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Exceptions/NegativePayAmountException.java
+END
+AddWhileBaggingException.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/csc301-2012-09/Victoria/!svn/ver/258/a1/Sprint4/src/ca/utoronto/csc301/SelfCheckOut/Exceptions/AddWhileBaggingException.java
+END
