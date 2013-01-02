@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<updateDescriptor baseUrl="">
+  <entry targetMediaFileId="26" updatableVersionMin="" updatableVersionMax="" fileName="VictoriaSelfCheckOut_windows_2_0.exe" newVersion="2.0" newMediaFileId="26" fileSize="5268992" bundledJre="" archive="false">
+    <comment language="en" />
+  </entry>
+</updateDescriptor>
+
